@@ -11,7 +11,7 @@ export default function Navbar(props) {
     if(navbar && ulist ){
       // navbar.style.height='70px';
       // ulist.style.display='none';
-    if(navbar.style.height=='70px'){
+    if(navbar.style.height==='70px'){
       navbar.style.height='300px'
       ulist.style.display='flex'
     }else{
