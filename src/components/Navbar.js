@@ -1,22 +1,23 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
-// import '../App.css'
+import '../App.css'
 
 export default function Navbar(props) {
-  let navbar = document.getElementById('navbar');
-  let ulist = document.getElementById('ulist');
+  // let navbar = document.getElementById('navbar');
+  // let ulist = document.getElementById('ulist');
 
   
   const toggleHamburger = () =>{
-    if(navbar && ulist ){
+    console.log('click')
+    if(document.getElementById('navbar') && document.getElementById('ulist') ){
       // navbar.style.height='70px';
       // ulist.style.display='none';
-    if(navbar.style.height==='70px'){
-      navbar.style.height='300px'
-      ulist.style.display='flex'
+    if(document.getElementById('navbar').style.height==='70px'){
+      document.getElementById('navbar').style.height='300px'
+      document.getElementById('ulist').style.display='flex'
     }else{
-      navbar.style.height='70px'
-      ulist.style.display='none'
+      document.getElementById('navbar').style.height='70px'
+      document.getElementById('ulist').style.display='none'
     }
   }
   }
