@@ -33,7 +33,7 @@ export default function Textform(props) {
                     <textarea className={`textArea_${props.mode}`} name="" id="" value={text} onChange={handleOnChange} cols="70" rows="8"></textarea>
                     <div className="buttonArea">
 
-                    <button className={` btn_${props.mode} btn_${props.red} btn_${props.yellow} btn_${props.green}`} onClick={handleUpClick}>Convert to Uppercase</button>
+                    <button (`${!text}?disabled:console.log("")`) className={` btn_${props.mode} btn_${props.red} btn_${props.yellow} btn_${props.green}`} onClick={handleUpClick}>Convert to Uppercase</button>
                     <button className={` btn_${props.mode} btn_${props.red} btn_${props.yellow} btn_${props.green}`} onClick={handleDownClick}>Convert to Lowercase</button>
                     <button className={` btn_${props.mode} btn_${props.red} btn_${props.yellow} btn_${props.green}`} onClick={handleExtraSpaces}>Remove extra spaces</button>
                     <button className={` btn_${props.mode} btn_${props.red} btn_${props.yellow} btn_${props.green}`} onClick={handleCopy}>Copy to Clipboard</button>
