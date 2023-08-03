@@ -191,7 +191,7 @@ textarea{
   font-size: 20px;
   border-radius: 10px;
   /* border: 1px solid black; */
-  outline: blue 3px solid;
+ /* outline: blue 3px solid;*/
   padding: 10px;
   margin:20px 0;
 }
@@ -300,7 +300,7 @@ h1{
   textarea{
     font-size: 20px;
     border-radius: 10px;
-    outline: blue 3px solid;
+    /*outline: blue 3px solid;*/
     padding: 10px;
     margin:20px 0;
     max-width: 70%;
@@ -360,8 +360,8 @@ h1{
     /* margin: 20px; */
     font-size: 20px;
     border-radius: 10px;
-    /* border: 1px solid black; */
-    outline: blue 3px solid;
+    /* border: 1px solid black; 
+    outline: blue 3px solid;*/
     padding: 10px;
     margin:20px 0;
     /* height: 100px; */
